@@ -27,13 +27,13 @@ public class daysold {
         int day = Integer.parseInt(in_date_vars[2]);
 
         return new GregorianCalendar(year, month, day);
-    }
+    } // public static GregorianCalendar parse_birthday(String birthday)
 
 
     /**
-     * Convert a GregorianCalender to a string formatted as "month_name day year"
+     * Convert a Calender to a string formatted as "month_name day year"
      *
-     * @param date {@code GregorianCalender}
+     * @param date {@code Calender}
      */
     public static String get_date_string(Calendar date) {
         return String.format(
@@ -42,7 +42,7 @@ public class daysold {
                 date.get(Calendar.DAY_OF_MONTH),
                 date.get(Calendar.YEAR)
         );
-    }
+    } // public static string get_date_string(Calendar date)
 
 
     /**
