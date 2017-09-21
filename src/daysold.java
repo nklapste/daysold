@@ -1,6 +1,8 @@
 /**
  * Assignment 1: Using standard libraries <br />
  * Calculate age in days
+ * Name: Nathan Klapstein
+ * ID: 1449872
  */
 
 import java.text.SimpleDateFormat;
